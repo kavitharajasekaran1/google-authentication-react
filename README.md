@@ -72,3 +72,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## registering google app and getting creaditentals using the below web site
 
 https://blog.logrocket.com/guide-adding-google-login-react-app/
+
+First go to google cloud console
+2. click create project
+3. once provide the app name click the project name link
+4. in the left  hand side there is oauthconset screen option
+5. click that option and provide name and click save
+6. after that in the left hand side credentials tab click and +create credentials button on the top.
+7. provide name and json url as http://localhost:3000 and redirect url as http://localhost:3000/login/oauth2/code/Google
+
+8. run the program.
